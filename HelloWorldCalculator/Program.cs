@@ -6,7 +6,7 @@ namespace HelloWorldCalculator
     {
         static void Main(string[] args)
         {
-            //float a and b to store 2 numbers
+          /*  //float a and b to store 2 numbers
             double i, j = 0;
             
             //Welcome Dialog
@@ -55,8 +55,45 @@ namespace HelloWorldCalculator
             }
             //close the application
             Console.Write("Press any key to close the Calculator console app...");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
+
+
+
+        }
+    }
+    class Calculator {
+
+        public static double AllOperations(double i, double j, string notOperand) {
+
+            double results = double.NaN;
+            switch (notOperand)
+            {
+                case "w":
+                    //Console.WriteLine($"Your result: {i} * {j} = " + (i * j));
+                    results = (i * j);
+                    break;
+                case "a":
+                    //Console.WriteLine($"Your result: {i} + {j} = " + (i + j));
+                    results = (i + j);
+                    break;
+                case "s":
+                    //Console.WriteLine($"Your result: {i} - {j} = " + (i - j));
+                    results = (i - j);
+                    break;
+                case "d":
+                    if (!(j.Equals(0)))
+                    {
+                        //Console.WriteLine($"Your result: {i} / {j} = " + (i / j));
+                        results = (i / j);
+                    }
+                    else { Console.WriteLine($"Tired to divide by { j }, the second number cant be { j }"); }
+                    break;
+                default:
+                    break;
+
+            }
+            return results;
         }
     }
 }
