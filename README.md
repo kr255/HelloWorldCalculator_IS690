@@ -1,7 +1,8 @@
 # HelloWorldCalculator_IS690
 
-This application take two inputs from the user and based on it provides a total of 4 operations.
+This application takes two inputs from the user and based on it provides a total of 4 operations.
 
+##Possible Inputs 
 | Letter  | Operations |
 | ------------- |:-------------:|
 | w      | multiplication     |
