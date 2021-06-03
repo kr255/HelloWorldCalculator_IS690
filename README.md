@@ -14,6 +14,6 @@ This application take two inputs from the user and based on it provides a total 
 If the user adds as the second input a 0 then the application hides the option of divide.
 
 
-![Second input > 0](IS690_hw1_sc_1.png?raw=true "Second input > 0")
+![Second input > 0](HelloWorldCalculator/assests/IS690_hw1_sc_1.png?raw=true "Second input > 0")
 
-![Second input = 0](IS690_hw1_sc_2.png?raw=true "Second input = 0")
+![Second input = 0](HelloWorldCalculator/assests/IS690_hw1_sc_2.png?raw=true "Second input = 0")
