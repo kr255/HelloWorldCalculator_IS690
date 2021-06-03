@@ -2,7 +2,7 @@
 
 This application takes two inputs from the user and based on it provides a total of 4 operations.
 
-##Possible Inputs 
+## Possible Inputs 
 | Letter  | Operations |
 | ------------- |:-------------:|
 | w      | multiplication     |
