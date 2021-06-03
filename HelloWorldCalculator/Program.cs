@@ -6,19 +6,19 @@ namespace HelloWorldCalculator
     {
         static void Main(string[] args)
         {
-            //int a and b to store 2 numbers
-            int i, j = 0;
+            //float a and b to store 2 numbers
+            double i, j = 0;
             
             //Welcome Dialog
             Console.WriteLine("Welcome To Hello World Calculator " + args[0] + " \n");
             
             //prompt for the first number
             Console.WriteLine("Type the first number, and then press Enter");
-            i = Convert.ToInt32(Console.ReadLine());
+            i = Convert.ToDouble(Console.ReadLine());
             
             //prompt for the second number
             Console.WriteLine("Type the second number, and then press Enter");
-            j = Convert.ToInt32(Console.ReadLine());
+            j = Convert.ToDouble(Console.ReadLine());
 
 
 
