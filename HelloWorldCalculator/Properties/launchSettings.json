@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWorldCalculator": {
+      "commandName": "Project",
+      "commandLineArgs": "Kamran"
+    }
+  }
+}
