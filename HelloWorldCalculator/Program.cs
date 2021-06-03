@@ -93,6 +93,7 @@ namespace HelloWorldCalculator
                 {
                     Console.WriteLine("\td - Divide");
                 }
+                else { cleanJ = double.NaN; }
                 Console.Write("What will be your option? ");
                 string op = Console.ReadLine();
                 try
