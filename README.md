@@ -12,7 +12,7 @@ This application takes two inputs from the user and based on it provides a total
 
 
 ## Divide by zero
-If the user adds as the second input a 0 then the application hides the option of divide.
+If the user adds as the second input as a 0. The application hides the option for divide.
 
 
 * Second input > 0 ![Second input > 0](HelloWorldCalculator/assests/IS690_hw1_sc_1.png?raw=true "Second input > 0")
