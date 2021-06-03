@@ -89,7 +89,7 @@ namespace HelloWorldCalculator
                 Console.WriteLine("\tw - Multiply");
                 Console.WriteLine("\ta - Add");
                 Console.WriteLine("\ts - Subtract");
-                if (!(j.Equals(0)))
+                if (!(cleanJ.Equals(0)))
                 {
                     Console.WriteLine("\td - Divide");
                 }
@@ -109,9 +109,13 @@ namespace HelloWorldCalculator
                     Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
                 }
 
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") terminateApp = true;
+
+                
             }
 
-
+            Console.WriteLine("Goodbye!\n"); // Friendly exit message?.
         }
     }
     class Calculator {
