@@ -13,4 +13,4 @@ This application take two inputs from the user and based on it provides a total 
 ## Divide by zero
 If the user adds as the second input a 0 then the application hides the option of divide.
 
-![ScreenShot](IS690_hw1_sc_1.png?raw=true second input > 0" )
+![Alt Text](IS690_hw1_sc_1.png?raw=true second input > 0" )
